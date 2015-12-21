@@ -1,9 +1,15 @@
 
 clone the splat-ecs starter project
+# Get started
 
-cd intot he starter project directory and run npm install or npm i for short this will install of the games dependencies from NPM including the splat-ecs engine.
-open package.json
-change name to the name of your game (no caps or spaces)
+- Fork https://github.com/SplatJS/splat-ecs-starter-project
+- Install [Node.js](https://nodejs.org)
+
+
+- cd into the starter project directory and `run npm install` or `npm i` for short this will install of the game's dependencies from NPM including the splat-ecs engine.
+
+- In the code editor of your choice open package.json
+change "name" to the name of your game (no caps or spaces)
 
 edit "description" to describe your getElementsByTagName
 "repository" -> "url" to your github project url (if you have one)
@@ -69,7 +75,7 @@ Players, enemies, items, backgrounds, animations, everything will be stored in d
 if you open up entities.json you will see an array of entities inside the '[]'
 
 the entity we have listed is
-`
+`json
 {
    "id": 0,
    "name": "player",
@@ -140,7 +146,7 @@ Lets test out the power of ECS by adding another entity and letting this same sy
 
 go back into src/data/entities.json and lets copy lines 3-19 and paste them on a new line after  line 19, make sure to add a comma inbetween JavaScript objects int he array. Also make sure to change the 'id' to 1, each splat-ecs entitiy must have tis own unique id number.
 
-`
+`json
 {
  "main": [
   {
