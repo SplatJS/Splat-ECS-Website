@@ -75,7 +75,7 @@ Players, enemies, items, backgrounds, animations, everything will be stored in d
 if you open up entities.json you will see an array of entities inside the '[]'
 
 the entity we have listed is
-`json
+```json
 {
    "id": 0,
    "name": "player",
@@ -93,7 +93,7 @@ the entity we have listed is
     "y": 0
    }
   }
-`
+```
 
 Notice the id of 0, the name "player", the position, width, and height.
 
@@ -146,7 +146,7 @@ Lets test out the power of ECS by adding another entity and letting this same sy
 
 go back into src/data/entities.json and lets copy lines 3-19 and paste them on a new line after  line 19, make sure to add a comma inbetween JavaScript objects int he array. Also make sure to change the 'id' to 1, each splat-ecs entitiy must have tis own unique id number.
 
-`json
+```json
 {
  "main": [
   {
@@ -185,7 +185,7 @@ go back into src/data/entities.json and lets copy lines 3-19 and paste them on a
   }
  ]
 }
-`
+```
 
 If we fire up the game we will notice there are two yellow squares... wait there is still just one!
 
