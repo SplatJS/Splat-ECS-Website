@@ -1,10 +1,8 @@
 
-clone the splat-ecs starter project
-# Get started
+###Clone the splat-ecs starter project
 
 - Fork https://github.com/SplatJS/splat-ecs-starter-project
 - Install [Node.js](https://nodejs.org)
-
 
 - cd into the starter project directory and `run npm install` or `npm i` for short this will install of the game's dependencies from NPM including the splat-ecs engine.
 
@@ -18,17 +16,18 @@ edit "description" to describe your getElementsByTagName
 change "author" to your name
 change "license" to proprietary unless you want your game to be free and open source.
 
-to get a feeling for the process we will use during development open the starter project in your terminal and run
+Next to get a feeling for the process we will use during development open the starter project in your terminal and run
 `npm run build`
 
 This is the build command that creates a 'build' of your game which you can try in your browser or distribute on the web, once this command is run the only thing you need to run your game is the 'build' folder and its contents.
 
-for example if you were submitting your game to itch.io you could zip  and rename the build folder and upload that as your game.
+###The build folder
+For example if you were submitting your game to itch.io you could zip and rename the build folder and upload that as your game.
 
 Inside the build folder we have a index.html, index.js, and  images and sounds direcories.
-index.html - The main html page your game will be displayed on, this contains the canvas element where your game is displayed.
-index.js - this is all of the code of your game, but it is also all the code for Splat-ECS and all of its dependencies, This is a 'compiled' build version so everything is smashed into a single file.
-images, sounds - where the assets your games uses live in the build folder
+- index.html - The main html page your game will be displayed on, this contains the canvas element where your game is displayed.
+- index.js - this is all of the code of your game, but it is also all the code for Splat-ECS and all of its dependencies, This is a 'compiled' build version so everything is smashed into a single file.
+- images, sounds - where the assets your games uses live in the build folder
 
 never edit anythign in the build folder, this is the output of your game and the next time you run `npm run build` it will all be overwritten anyway.
 the build is only for testing your game int he browser, and distributing it to others, you will never need to do anything in the build but run it from the index.html file.
