@@ -78,8 +78,6 @@ The last word 'build' if refering to your game's build directory.
 
 ##### python SimpleHTTPServer
 
-node static installation instructions and usage:
-
 I recomend opening a new terminal tab or window since python SimpleHTTPServer needs stays active while running.
 in your game's build directory run this command:
 `python -m SimpleHTTPServer 1337`
