@@ -49,7 +49,7 @@ This is the build command that creates a fresh 'build' of your game which you ca
 
 > For example if you were submitting your game to itch.io you could zip and rename the build folder and upload that as your game.
 
-Inside the build folder we have **index.html**, **index.js**,  **images/*, and **sounds**.
+Inside the build folder we have **index.html**, **index.js**,  **images**, and **sounds**.
 
 **index.html** - The main html page your game will be displayed on, this contains the canvas element where your game is displayed.
 
