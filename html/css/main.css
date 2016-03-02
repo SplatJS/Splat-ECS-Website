@@ -2572,3 +2572,6 @@ code em {
     padding: 2px 4px; }
   .commit .message {
     padding: 2px 4px; }
+
+.game.module p {
+  text-align: center; }
