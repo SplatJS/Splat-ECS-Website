@@ -1,0 +1,43 @@
+@import"colors";
+@import"breakpoints";
+@import"structure";
+@import"navigation";
+@import"font-awesome";
+@import"buttons";
+@import"typography";
+@import"alerts";
+@import"syntax-highlighting";
+@import"contributors";
+
+
+.text-align-left{
+	text-align: left;
+}
+
+.center-text{
+	text-align: center;
+}
+
+
+.logo{
+	max-width: 450px;
+	width: 100%;
+}
+
+
+
+.commit{
+	border: 1px solid white;
+	margin: 5px;
+	background: white;
+
+	.name{
+padding: 2px 4px;
+	}
+	.date{
+padding: 2px 4px;
+	}
+	.message{
+padding: 2px 4px;
+	}
+}

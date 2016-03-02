@@ -3,15 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Splat JavaScript Game Engine</title>
+	<title>Splat JS - Open Source JavaScript Game Engine</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/main.css">
-	<style>
-	.text-align-left{
-		text-align: left;
-	}
-	</style>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -20,39 +15,48 @@
 
 	<div class="wrapper">
 		<div class="flexrow">
-			<div class="col1-2">
+			<div class="col1-1">
 				<div class="module">
-					<img src="https://github.com/SplatJS/splat-ecs/raw/master/images/splat-ecs-logo.png"/>
-				</div>
-			</div>
-			<div class="col1-2">
-				<div class="module">
-					<h1>Splat ECS</h1>
-
-					<p>A 2d HTML5 Canvas game engine</p>
-
-					<p>Splat ECS is a 2d game engine made for creating multi-platform games entirely in JavaScript. Splat ECS is built around the Entity Component System pattern, which is flexible and promotes composition of behaviors.</p>
+					<img src="https://github.com/SplatJS/splat-ecs/raw/master/images/splat-ecs-logo.png" class="center logo"/>
 				</div>
 			</div>
 		</div>
+<!--
+		<div class="flexrow navigation">
+			<div class="col1-5" ><a href="#">About</a></div>
+			<div class="col1-5" ><a href="#">Docs</a></div>
+		</div>-->
 
+		<div class="flexrow color">
 
-		<div class="flexrow">
-			<div class="col1-1">
+			<div class="col2-3">
 				<div class="module">
-					<a class="btn text-align-left" href="https://github.com/SplatJS/splat-ecs" target="_blank"><i class="fa fa-github"></i> Splat ECS Github</a>
 
-					<a class="btn text-align-left" href="https://github.com/SplatJS/splat-ecs-starter-project" target="_blank"><i class="fa fa-power-off"></i> Splat ECS Starter Project</a>
+					<h1>Splat ECS</h1>
+					<p>A 2d HTML5 Canvas game engine</p>
 
-					<a class="btn text-align-left" href="https://rawgit.com/SplatJS/Splatformer-Tutorial/master/tutorial/index.html" target="_blank"><i class="fa fa-child"></i> Splatformer Tutorial</a>
+					<p>Splat ECS is an open-source 2d game engine made for creating multi-platform games entirely in JavaScript. Splat ECS is built around the Entity Component System pattern, which is flexible and promotes composition of behaviors.
+					<br/> If you are new to Splat we recommend you use try out the "Splatformer Tutorial".</p>
+				</div>
+			</div>
 
-					<p> Splat is open-source software released under the <a href="https://raw.githubusercontent.com/SplatJS/splat-ecs/master/LICENSE.TXT" target="_blank">MIT License</a>.
+			<div class="col1-3">
+					<div class="module">
+						<a class="btn text-align-left" href="/tutorial/splatformer/"><i class="fa fa-child"></i> Splatformer Tutorial (Start Here)</a>
+						<a class="btn text-align-left" href="https://github.com/SplatJS/splat-ecs" target="_blank"><i class="fa fa-github"></i> Splat ECS Github</a>
+						<a class="btn text-align-left" href="https://github.com/SplatJS/splat-ecs-starter-project" target="_blank"><i class="fa fa-power-off"></i> Starter Project</a>
 					</div>
 				</div>
 			</div>
 
-			<h2>Games Created with Splat ECS</h2>
+
 			<div class="flexrow">
+				<div class="col1-1">
+					<div class="module">
+						<h2>Games Created with Splat ECS</h2>
+						<p>Click the game's logo to view full source code on GitHub.</p>
+					</div>
+				</div>
 				<div class="col1-4">
 					<div class="game module">
 						<a href="https://github.com/aquisenberry/ggj_meditate">
@@ -91,45 +95,36 @@
 			</div>
 
 
-			<style>
-			#contrib img{
-				max-width: 200px;
-				border-radius: 200px;
-			}
-			#contrib .module{
-				position: relative;
-			}
-			#contrib .number{
-				color: white;
-				padding: 9px 5px 4px 5px;
-				text-align: center;
-				position: absolute;
-				top: 60%;
-				left: 20px;
-				width: 66px;
-				height: 66px;
-				border-top: 3px solid #c45c4b;
-				/* border-bottom: 3px solid #3A1914; */
-				border-radius: 66px;
-				font-size: 28px;
-				background: #ac4433;
-				box-shadow: 3px 2px 8px 0px rgba(0,0,0,0.3);
-			}
-			</style>
-			<h2>Contributors:</h2>
+			<div class="flexrow">
+				<div class="col1-1">
+					<div class="module">
+						<h2>Contributors:</h2>
+					</div>
+				</div>
+			</div>
+
 			<div id="contrib" class="flexrow"></div>
+
+			<div class="flexrow">
+				<div class="col1-1">
+					<div class="module center-text">
+						<p> Splat is open-source software released under the <a href="https://raw.githubusercontent.com/SplatJS/splat-ecs/master/LICENSE.TXT" target="_blank">MIT License</a>.
+					</div>
+				</div>
+			</div>
 		</div><!-- .wrapper -->
+		<div id="commitmessages"></div>
+
+
 
 		<script>
-
 		var xhr = new XMLHttpRequest();
 		xhr.onreadystatechange=function(){
 			if(xhr.readyState==4 && xhr.status==200){
 				var contributors = JSON.parse(xhr.responseText);
 				var content = "";
 				for (var i = 0; i < contributors.length; i++){
-					console.log(contributors[i]);
-					content += '<div class="col1-4"><div class="module"><a href="http://github.com/' + contributors[i].login + '"><img src="' + contributors[i].avatar_url + '"/><span class="number">' + contributors[i].contributions + '</span></a></div></div>';
+					content += '<div class="col1-6"><div class="module"><a href="http://github.com/' + contributors[i].login + '"><img src="' + contributors[i].avatar_url + '" class="expand" /><span class="number">' + contributors[i].contributions + '</span></a></div></div>';
 				}
 				var contrib = document.getElementById("contrib");
 				contrib.innerHTML = content;
@@ -140,6 +135,27 @@
 		xhr.setRequestHeader("Origin","http://localhost:3000");
 
 		xhr.send();
+
+		var xhr2 = new XMLHttpRequest();
+		xhr2.onreadystatechange=function(){
+			if(xhr2.readyState==4 && xhr2.status==200){
+				var commits = JSON.parse(xhr2.responseText);
+				var content = "";
+				for (var i = 0; i < commits.length; i++){
+					content += '<div class="commit"><span class="name">' + commits[i].commit.committer.name + '</span>'
+					+  '<span class="date">' + commits[i].commit.committer.date + '</span>'
+					+  '<span class="message">' + commits[i].commit.message + '</span>'
+					+ '</div>';
+				}
+				var commitmessages = document.getElementById("commitmessages");
+				commitmessages.innerHTML = content;
+			}
+		}
+		xhr2.open("GET","https://api.github.com/repositories/46762138/commits",true);
+		xhr2.setRequestHeader("Accept","application/json");
+		xhr2.setRequestHeader("Origin","http://localhost:3000");
+
+		xhr2.send();
 
 		</script>
 
