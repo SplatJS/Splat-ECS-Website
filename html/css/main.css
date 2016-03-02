@@ -53,7 +53,8 @@ footer {
   margin-top: 20px;
   border-radius: 0 0 4px 4px;
   border-top: 1px solid #404140;
-  background: #595b5a;
+  background: url("../img/footer-bg.jpg") repeat-x;
+  background-color: #595b5a;
   color: white;
   padding: 20px; }
   footer a {
