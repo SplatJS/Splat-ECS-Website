@@ -1,3 +1,4 @@
+@import"mixins";
 @import"colors";
 @import"breakpoints";
 @import"structure";
@@ -8,7 +9,8 @@
 @import"alerts";
 @import"syntax-highlighting";
 @import"contributors";
-
+@import"burst";
+@import"commit-message";
 
 .text-align-left{
 	text-align: left;

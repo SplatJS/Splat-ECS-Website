@@ -1,7 +1,9 @@
 $secondary: #fff;
 $text: #333;
-$red: #b24330;
-
+$primary: #b24330;
+//$primary: #00CCBE;
+$grey: #595B5A;
 body{
-	background: $red;
+	background: url('../img/bg-site.jpg') repeat-x;
+	background-color: #cacaca;
 }
