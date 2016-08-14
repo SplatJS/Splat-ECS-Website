@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Splat JS - Open Source JavaScript Game Engine</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Splat JS - Open Source JavaScript Game Engine</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -13,166 +13,233 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#top"><img src="img/logo-sm.png"/></a>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#top"><img src="img/logo-sm.png"/></a>
+      </div>
+
+      <a class="navbar-right nav-icon" href="https://github.com/SplatJS/Splatformer-Tutorial/blob/master/README.md#how-to-get-help" target="_blank">
+        <i class="fa fa-question-circle"></i> Help
+      </a>
+
+      <a class="navbar-right nav-icon" href="https://github.com/SplatJS/" target="_blank">
+        <i class="fa fa-github"></i> Github
+      </a>
+
     </div>
-
-    <a class="navbar-right nav-icon" href="https://github.com/SplatJS/Splatformer-Tutorial/blob/master/README.md#how-to-get-help" target="_blank">
-      <i class="fa fa-question-circle"></i> Help
-    </a>
-    <a class="navbar-right nav-icon" href="https://github.com/SplatJS/" target="_blank">
-      <i class="fa fa-github"></i> Github
-    </a>
-
-
-  </div><!-- /.container-fluid -->
-</nav>
+  </nav>
 
 
 
 
-<a class="page-anchor" name="top"></a>
-<header>
+
+<div class="container-fluid white-shadow">
+
+
+  <header>
     <div class="header-inner row">
       <div class="col-xs-12 col-md-4">
         <a href="#top" class="logo"><img src="img/logo.png"/></a>
       </div>
       <div class="col-xs-12 col-md-8">
-        <div id="commitMessage"></div>
-        	<div id="updated"></div>
-      <!-- <ul class="socialIcons list-inline">
-        <li>Follow the open source project:</li>
-        <li><a href="http://www.github.com/splatjs"><i class="fa fa-github"></i></a></li>
-      </ul> -->
+        <div class="messageArea">
+          <div id="commitMessage"></div>
+          <div id="updated"></div>
+        </div>
+    </div>
+  </div>
+
+  </header>
+
+
+
+  <div class="row introduction">
+
+    <div class="col-xs-12 col-md-8">
+      <h1>Splat ECS</h1>
+      <p>A 2d HTML5 Canvas game engine</p>
+      <p>Splat ECS is an open-source 2d game engine made for creating multi-platform games entirely in JavaScript. Splat ECS is built around the Entity Component System pattern, which is flexible and promotes composition of behaviors.</p>
+      <p> If you are new to Splat we recommend you use try out the "Splatformer Tutorial".</p>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <a class="btn btn-primary btn-lg" href="/tutorials/splatformer/"><i class="fa fa-child"></i> Splatformer Tutorial</a>
+      <a class="btn btn-primary btn-lg" href="https://github.com/SplatJS/splat-ecs" target="_blank"><i class="fa fa-github"></i> Splat ECS Github</a>
+      <a class="btn btn-primary btn-lg" href="https://github.com/SplatJS/splat-ecs-starter-project" target="_blank"><i class="fa fa-power-off"></i> Starter Project</a>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Notable features of Splat</h2>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-xs-12 col-md-6">
+      <img src="img/splat-tiled-support.png" class="image-responsive"/>
+      <h3>Tiled map editor support</h3>
+      <p>Create intricate invironments using the open source <a href="http://www.mapeditor.org/" target="_blank">Tiled map editor</a> and import them into Splat for use in your game.</p>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      <img src="img/splat-gamepad-support.png" class="image-responsive"/>
+      <h3>Gamepad support</h3>
+      <p>USB gamepad support on the web in your browser is as easy as naming your inputs and plugging in your controller.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Juice things up!</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <h3>Particle system</h3>
+      <p>Easily add cool particle effects such as explosions, smoke, fire, or anything else you can dream up.</p>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h3>Easing functions</h3>
+      <p>Bounce, wobble, zoom or stretch any property in your game using the power of Splat's built-in easing system and the versatility of the <a href="https://www.npmjs.com/package/easing-js" target="_blank"> easing-js</a> library of effects.</p>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h3>Screen shake</h3>
+      <p>Your players will feel the impact and for you it will be as easy as adding a of couple lines of code.</p>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Games Created with Splat ECS</h2>
+      <p>Click the game's logo to view full source code on GitHub.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/TwoScoopGames/Electropolis">
+          <img src="img/games/electropolis.jpg" class="image-responsive" alt="Electropolis by Cara Smith, Alex Bezuska, Eric Lathrop, Rex Soriano, Lindar Greenwood"/>
+        </a>
+        <p>Electropolis </p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/zbouvier/SplattyBird">
+          <img src="img/games/splattybird.jpg" class="image-responsive" alt="Splatty Bird by Zach Bouvier"/>
+        </a>
+        <p>Splatty Bird </p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/TwoScoopGames/Morning-Ritual">
+          <img src="img/games/morningritual.jpg" class="image-responsive" alt="Morning Ritual by Two Scoop Games"/>
+        </a>
+        <p>Morning Ritual</p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/aquisenberry/ggj_meditate">
+          <img src="img/games/zenmadness.jpg" class="image-responsive" alt="Zen Madness"/>
+        </a>
+        <p>Zen Madness</p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/AlexBezuska/Henry-the-Harvester">
+          <img src="img/games/henrytheharvester.jpg" class="image-responsive" alt="Henry the Harvester by Alex Bezuska"/>
+        </a>
+        <p>Henry the Harvester</p>
       </div>
     </div>
 
-</header>
-
-  <div class="container-fluid white-shadow">
-
-
-
-
-    <div class="row">
-    	<div class="col2-xs-12 col-md-8">
-    			<h1>Splat ECS</h1>
-    			<p>A 2d HTML5 Canvas game engine</p>
-
-    			<p>Splat ECS is an open-source 2d game engine made for creating multi-platform games entirely in JavaScript. Splat ECS is built around the Entity Component System pattern, which is flexible and promotes composition of behaviors.
-    			<br/> If you are new to Splat we recommend you use try out the "Splatformer Tutorial".</p>
-    		</div>
-
-    		<div class="col-xs-12 col-md-4">
-    				<a class="btn btn-primary" href="/tutorials/splatformer/"><i class="fa fa-child"></i> Splatformer Tutorial</a>
-    				<a class="btn btn-primary" href="https://github.com/SplatJS/splat-ecs" target="_blank"><i class="fa fa-github"></i> Splat ECS Github</a>
-    				<a class="btn btn-primary" href="https://github.com/SplatJS/splat-ecs-starter-project" target="_blank"><i class="fa fa-power-off"></i> Starter Project</a>
-    		</div>
-
-    	</div>
-
-
-      <div class="row">
-    		<div class="col-xs-12">
-    				<h2>Games Created with Splat ECS</h2>
-    				<p>Click the game's logo to view full source code on GitHub.</p>
-    		</div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/TwoScoopGames/Cluster-Junk">
+          <img src="img/games/clusterjunk.jpg" class="image-responsive" alt="Cluster Junk by Two Scoop Games"/>
+        </a>
+        <p>Cluster Junk</p>
       </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/aquisenberry/DrunkenBossFight">
+          <img src="img/games/drunkenbossfight.jpg" class="image-responsive" alt="Drunken Boss Fight by Veronica Rivera and Anthony Quisenberry"/>
+        </a>
+        <p>Drunken Boss Fight</p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/TwoScoopGames/Treatment-and-Control">
+          <img src="img/games/treatmentandcontrol.jpg" class="image-responsive" alt="Treatment and Control by Two Scoop Games"/>
+        </a>
+        <p>Treatment and Control</p>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="game module">
+        <a href="https://github.com/TwoScoopGames/ggj15">
+          <img src="img/games/thedaytheworldchanged.jpg" class="image-responsive" alt="The Day the World Changed by Two Scoop Games"/>
+        </a>
+        <p>The Day The World Changed</p>
+      </div>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Contributors:</h2>
+    </div>
+  </div>
+
+  <div id="contrib" class="row"></div>
+
+  <footer class="row">
+    <div class="col1-1">
+      <p> Splat is open-source software released under the <a href="https://raw.githubusercontent.com/SplatJS/splat-ecs/master/LICENSE.TXT" target="_blank">MIT License</a>.
+      </div>
+    </footer>
+
+  </div><!-- end conatainer-fluid -->
+
+  <footer class="page-footer">
+    <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="game module">
-            <a href="https://github.com/TwoScoopGames/Electropolis">
-              <img src="img/games/electropolis.jpg" class="image-responsive" alt="Electropolis by Cara Smith, Alex Bezuska, Eric Lathrop, Rex Soriano, Lindar Greenwood"/>
-            </a>
-            <p>Electropolis </p>
-          </div>
+
+        <div class="col-xs-12 col-md-6">
+          <p>Created by <a href="https://twitter.com/ericlathrop" target="_blank">@EricLathrop</a>. Site by <a href="https://twitter.com/alexbezuska" target="_blank">@AlexBezuska</a></p>
+          <p>Code licensed <a href="https://github.com/SplatJS/splat-ecs/blob/master/LICENSE.TXT" target="_blank" rel="license">MIT</a>.</p>
         </div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/zbouvier/SplattyBird">
-    					<img src="img/games/splattybird.jpg" class="image-responsive" alt="Splatty Bird by Zach Bouvier"/>
-    				</a>
-    				<p>Splatty Bird </p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/TwoScoopGames/Morning-Ritual">
-    					<img src="img/games/morningritual.jpg" class="image-responsive" alt="Morning Ritual by Two Scoop Games"/>
-    				</a>
-    				<p>Morning Ritual</p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/aquisenberry/ggj_meditate">
-    					<img src="img/games/zenmadness.jpg" class="image-responsive" alt="Zen Madness"/>
-    				</a>
-    				<p>Zen Madness</p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/AlexBezuska/Henry-the-Harvester">
-    					<img src="img/games/henrytheharvester.jpg" class="image-responsive" alt="Henry the Harvester by Alex Bezuska"/>
-    				</a>
-    				<p>Henry the Harvester</p>
-    			</div>
-    		</div>
 
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/TwoScoopGames/Cluster-Junk">
-    					<img src="img/games/clusterjunk.jpg" class="image-responsive" alt="Cluster Junk by Two Scoop Games"/>
-    				</a>
-    				<p>Cluster Junk</p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/aquisenberry/DrunkenBossFight">
-    					<img src="img/games/drunkenbossfight.jpg" class="image-responsive" alt="Drunken Boss Fight by Veronica Rivera and Anthony Quisenberry"/>
-    				</a>
-    				<p>Drunken Boss Fight</p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/TwoScoopGames/Treatment-and-Control">
-    					<img src="img/games/treatmentandcontrol.jpg" class="image-responsive" alt="Treatment and Control by Two Scoop Games"/>
-    				</a>
-    				<p>Treatment and Control</p>
-    			</div>
-    		</div>
-    		<div class="col-xs-6 col-md-3">
-    			<div class="game module">
-    				<a href="https://github.com/TwoScoopGames/ggj15">
-    					<img src="img/games/thedaytheworldchanged.jpg" class="image-responsive" alt="The Day the World Changed by Two Scoop Games"/>
-    				</a>
-    				<p>The Day The World Changed</p>
-    			</div>
-    		</div>
-    	</div>
+        <div class="col-xs-12 col-md-6">
+          <ul class="page-footer-links">
+            <li><a href="https://github.com/SplatJS/splat-ecs">GitHub</a></li>
+            <!-- <li><a href="#">Twitter</a></li> -->
+            <li><a href="http://splatjs.com/tutorials/splatformer/">Tutorial</a></li>
+            <!-- <li><a href="#">Docs</a></li> -->
+            <li><a href="http://overworld.io">Overworld (coming soon)</a></li>
+          </ul>
+        </div>
 
-    	<div class="row">
-    		<div class="col-xs-12">
-    			<h2>Contributors:</h2>
-    		</div>
-    	</div>
-
-    	<div id="contrib" class="row"></div>
-
-    	<footer class="row">
-    		<div class="col1-1">
-    				<p> Splat is open-source software released under the <a href="https://raw.githubusercontent.com/SplatJS/splat-ecs/master/LICENSE.TXT" target="_blank">MIT License</a>.
-    		</div>
-    	</footer>
-
-	</div><!-- end conatainer-fluid -->
+      </div>
+    </div>
+  </footer>
 
 
   <script src="js/moment.js"></script>
@@ -207,7 +274,7 @@
       commitMessage.innerHTML = 'Now with ' + commits[0].commit.message;
       var updated = document.getElementById("updated");
       updated.innerHTML = '<span>Fresh Squeezed</span> ' +
-      '<span class="daysAgo">' + moment(commits[0].commit.committer.date).startOf('day').fromNow() +'</span>' + '<span>' + moment(commits[0].commit.committer.date).format('ll') +'</span>';
+      '<span class="daysAgo"> ' + moment(commits[0].commit.committer.date).startOf('day').fromNow() +'</span>' + '<span>' + moment(commits[0].commit.committer.date).format('ll') +'</span>';
 
     }
   }

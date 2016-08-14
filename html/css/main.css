@@ -7,12 +7,12 @@ html {
 }
 
 body{
-  padding-top: 30px;
+  padding-top: 64px;
   background: hsla(206, 19%, 93%, 1)
 }
 
 .container-fluid{
-  max-width: 1200px !important;
+  max-width: 1170px; !important;
 }
 
 .white-shadow{
@@ -30,12 +30,12 @@ header{
 }
 
 .header-inner{
-  max-width: 1200px;
+  max-width: 1170px;;
   margin: 0 auto !important;
 }
 
 .navbar{
-  min-height: auto !important;
+  min-height: 64px;
 }
 
 .navbar-brand img{
@@ -43,9 +43,8 @@ header{
 }
 
 .nav-icon{
-  padding: 0px 15px 0px 5px;
+  padding: 0px 5px;
   color: white;
-  margin-top: 17px;
 }
 
 .nav-icon:hover{
@@ -71,20 +70,14 @@ header{
   max-height: 150px;
 }
 
-.terminal{
-  background: #353535;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+.messageArea{
+  margin: 25px;
 }
 
-.terminal code{
-  background: transparent !important;
-  color: white !important;
-  margin-left: 15px !important;
-}
 
+.introduction .btn-lg{
+  min-width: 230px;
+}
 .row{
   margin: 25px auto;
 }
@@ -166,14 +159,13 @@ pre{
   background: #353535;
   text-align: right;
   padding: 5px 20px;
-  height: 40px;
   top: 0px;
 }
 
-.page-anchor{
+/*.page-anchor{
   margin-bottom: 105px;
   display: block;
-}
+}*/
 
 h4.heading{
   margin-top: 30px;
@@ -228,31 +220,31 @@ h4.heading{
   background: hsla(175, 100%, 40%, 0.5);
 }
 
-#commitMessage {
-  width: 100%;
-  background: #595b5a;
-  color: white;
-  text-align: center;
-  border-radius: 4px;
-  padding: 4px;
-  margin: 4px;
-}
-
-.commit {
-  border: 1px solid white;
-  margin: 5px;
-  background: white;
-}
-.commit .name {
-  padding: 2px 4px;
-}
-.commit .date {
-  padding: 2px 4px;
-}
-.commit .message {
-  padding: 2px 4px;
-}
-
 .game.module p {
   text-align: center;
+}
+
+
+
+.page-footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  color: #99979c;
+  background-color: #2a2730;
+}
+
+.page-footer a{
+  color: white;
+}
+
+.page-footer .container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+.page-footer-links{
+  padding-left: 0;
+margin-bottom: 20px;
 }
