@@ -7,7 +7,6 @@ html {
 }
 
 body{
-  padding-top: 64px;
   background: hsla(206, 19%, 93%, 1)
 }
 
@@ -36,6 +35,8 @@ header{
 
 .navbar{
   min-height: 64px;
+  border-radius: 0 !important;
+  margin: 0 !important;
 }
 
 .navbar-brand img{
@@ -60,14 +61,16 @@ header{
   vertical-align: middle;
 }
 
-.navbar-form {
-  padding: 0 5px !important;
-  margin-top: 0 !important;
-}
 
 .logo img{
   margin: 10px;
   max-height: 150px;
+}
+
+
+.minitron {
+  color: white;
+  background-color: #f43779;
 }
 
 .messageArea{
@@ -81,7 +84,7 @@ header{
   display: block;
 }
 .row{
-  margin: 25px auto;
+  margin: 50px auto;
 }
 
 .btn{
@@ -177,15 +180,9 @@ pre{
   top: 0px;
 }
 
-/*.page-anchor{
-  margin-bottom: 105px;
-  display: block;
-}*/
-
 h4.heading{
   margin-top: 30px;
 }
-
 
 .person{
   width: 140px;
@@ -212,15 +209,11 @@ h4.heading{
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-
   position: absolute;
 }
 
-
 .person .info {
   display: none;
-
-
 }
 
 .person:hover .info {
@@ -239,8 +232,6 @@ h4.heading{
   text-align: center;
 }
 
-
-
 .page-footer{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -258,8 +249,7 @@ h4.heading{
   margin: 0 auto;
 }
 
-
 .page-footer-links{
   padding-left: 0;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
