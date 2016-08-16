@@ -230,6 +230,19 @@ h4.heading{
 
 .game.module p {
   text-align: center;
+max-height: 12px;
+text-overflow: elipsis;
+}
+
+.game.module{
+margin: 20px 0;
+}
+.game.module img{
+  margin: 0 auto;
+  display: block;
+width: 315px !important;
+height: 250px !important;
+
 }
 
 .page-footer{
