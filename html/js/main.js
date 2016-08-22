@@ -42,24 +42,24 @@ xhr2.setRequestHeader("Origin","http://localhost:3000");
 xhr2.send();
 
 
-function getLastCommitDate(repoID){
-	var xhr2 = new XMLHttpRequest();
-	xhr2.onreadystatechange=function(){
-		if(xhr2.readyState==4 && xhr2.status==200){
-			console.log(data);
-			var data = JSON.parse(xhr2.responseText);
-			return  moment(data.updated_at).format('ll');
-		}
-	}
-	xhr2.open("GET",repoID,true);
-	xhr2.setRequestHeader("Accept","application/json");
-	xhr2.setRequestHeader("Origin","http://localhost:3000");
-
-	xhr2.send();
-}
-
-
-console.log(getLastCommitDate("https://api.github.com/TwoScoopGames/Cluster-Junk"));
+// function getLastCommitDate(repoID){
+// 	var xhr2 = new XMLHttpRequest();
+// 	xhr2.onreadystatechange=function(){
+// 		if(xhr2.readyState==4 && xhr2.status==200){
+// 			console.log(data);
+// 			var data = JSON.parse(xhr2.responseText);
+// 			return  moment(data.updated_at).format('ll');
+// 		}
+// 	}
+// 	xhr2.open("GET",repoID,true);
+// 	xhr2.setRequestHeader("Accept","application/json");
+// 	xhr2.setRequestHeader("Origin","http://localhost:3000");
+// 
+// 	xhr2.send();
+// }
+//
+//
+// console.log(getLastCommitDate("https://api.github.com/TwoScoopGames/Cluster-Junk"));
 
 // Handlebars stuff
 var gameTemplate = Handlebars.compile(document.getElementById('game-template').innerHTML);
