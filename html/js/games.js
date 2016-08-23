@@ -13,7 +13,10 @@ var games =  [
     "teamMembers": "Said Yeti",
 		"description":"You are Marty McPaper, a delivery boy for the Tub County Herald. You're headed down Obstructive Lane, delivering papers and dodging numerous hindrances throughout Tub County's most affluent residential area. Hurry - they are not the most forgiving neighbors. And watch out - don't break their windows!",
 		"splat": "6.0.0",
-		"lastchange":"Jun 27, 2016"
+		"lastchange":"Jun 27, 2016",
+		"jams":{
+			"kfp":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service"
+		}
   },
   {
     "name": "Hydra Chicken",
@@ -26,7 +29,11 @@ var games =  [
     "image": "https://img.itch.io/aW1hZ2UvNzQzMzIvMzY4NDAwLmdpZg==/315x250%23c/iNrn8G.gif",
     "teamMembers": "Hydra Chicken Games",
     "splat": "5.5.0",
-    "lastchange": "May 25, 2016"
+    "lastchange": "May 25, 2016",
+		"jams":{
+
+			"kfp":"https://hydrachickengames.itch.io/hydra-chicken"
+		}
   },
   {
     "play_url": "https://riseshinegames.itch.io/cali-bunga",
@@ -41,7 +48,10 @@ var games =  [
     "teamMembers": "Rise and Shine Games",
 		"description":"Meet Calin; a cute little cephalopod trying to grow up into a totally rad Kraken. There's just one problem. The beach is haunted by ghosts and they don't want to see Calin grow into a hot stud that can attract hot girls and tourists. Will Calin stay a cute little baby squid or will you help him grow up and turn this ghastly beach to a hip vacation spot?",
 		"splat":"6.0.0",
-		"lastchange": "Jul 9, 2016"
+		"lastchange": "Jul 9, 2016",
+		"jams":{
+			"kfp":"https://riseshinegames.itch.io/cali-bunga"
+		}
   },
   {
     "play_url": "https://riseshinegames.itch.io/flip-flap-pong",
@@ -54,14 +64,20 @@ var games =  [
     "name": "Flip Flap Pong",
 		"slogan":"Protect Your Eggs",
     "teamMembers": "Rise and Shine Games",
-		"description":"There's a battle in the sky between a Momma Bird and her eggs and she's not happy about it! FlipFlap is a mobile, pong style game that keeps you on your toes. Developed by Rise & Shine Games, an indie game design and development studio in Louisville, KY, the game is featured in the Kentucky Fried Pixels Bundle, the first game bundle consisting of games made entirely in the Midwest."
+		"description":"There's a battle in the sky between a Momma Bird and her eggs and she's not happy about it! FlipFlap is a mobile, pong style game that keeps you on your toes. Developed by Rise & Shine Games, an indie game design and development studio in Louisville, KY, the game is featured in the Kentucky Fried Pixels Bundle, the first game bundle consisting of games made entirely in the Midwest.",
+		"jams":{
+			"kfp":"https://riseshinegames.itch.io/flip-flap-pong"
+		}
   },
   {
-    "play_url": "",
+    "play_url": "https://two-scoop-games.itch.io/electropolis",
     "license": "Source-viewable proprietary",
     "github": "https://github.com/TwoScoopGames/Electropolis",
 		"platforms" : {
-			"web":""
+			"web":"https://two-scoop-games.itch.io/electropolis",
+			"linux":"https://two-scoop-games.itch.io/electropolis",
+			"widnows":"https://two-scoop-games.itch.io/electropolis",
+			"mac":"https://two-scoop-games.itch.io/electropolis"
 		},
     "image": "img/games/twoscoopgames_electropolis.png",
     "name": "Electropolis",
@@ -88,7 +104,10 @@ var games =  [
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_morningritual.png",
     "teamMembers": "Two Scoop Games, Cara Smith, Chris Kincaid",
-    "descripion": "Every morning we go through a delicate morning ritual to prepare ourselves for the onslaught of the day."
+    "descripion": "Every morning we go through a delicate morning ritual to prepare ourselves for the onslaught of the day.",
+		"jams":{
+			"ggj16": "http://globalgamejam.org/2016/games/morning-ritual-13"
+		}
   },
   {
     "name": "Zen Madness",
@@ -102,14 +121,17 @@ var games =  [
     "teamMembers": "Rise ane Shine Games",
     "descripion": "Keep your concentration in this fast paced, distraction avoidence game. Your monk is attracting all of the positive energy he can from the areas around him. Unfortunately, he is also attracting negative energy. It is your job to keep the negative energy out while letting the positive energy in. Click the red swirls to dissipate them. Drop zen grenades with the E Space key but be careful, Zen Grenades and other abilities destroy positive energy as well as negative.",
 		"splat": "6.0.1",
-		"lastchange":"Aug 7, 2016"
+		"lastchange":"Aug 7, 2016",
+		"jams":{
+			"ggj16": "http://globalgamejam.org/2016/games/zen-madness"
+		}
   },
   {
     "play_url": "http://riseandshinegames.github.io/Polymorphic/build/",
     "license": "Source-viewable proprietary",
     "github": "https://github.com/RiseAndShineGames/LudumDare35",
 		"platforms" : {
-			"web":""
+			"web":"http://riseandshinegames.github.io/Polymorphic/build/"
 		},
     "image": "img/games/riseandshinegames_polymorphic.png",
     "teamMembers": "Rise and Shine Games",
@@ -134,7 +156,10 @@ var games =  [
     "teamMembers": "@AustinCantRead, @ConnanBell, @LoLo_R, @senabryer",
     "descripion": "The Queen bee is an idiot and sold all of the precious artifacts required to summon the Spring Goddess and end winter. Use your worker and warrior bees to gather the artifacts and bring about Spring! Hints: Warrior bees are required to kill monsters. Worker bees are required to bring artifacts back to the hive. Controls: WASD to move. Left-click on the beehive to summon a worker bee, right-click to summon a warrior bees. Away from the hive clicking releases a bee.",
     "splat": "classic",
-    "lastchange": "Jan 31, 2016"
+    "lastchange": "Jan 31, 2016",
+		"jams":{
+			"ggj16": "http://globalgamejam.org/2016/games/powers-bee"
+		}
   },
   {
     "name": "Cluster Junk",
@@ -149,19 +174,23 @@ var games =  [
     "teamMembers": "Two Scoop Games, Cara Smith, Ben Wiley",
     "descripion": "There are millions of tons of trash floating in the oceans. So what goes on while no one is looking in these trash piles? Explore the garbage of humans and try to become the largest trash island in the sea! But hurry, don't let the timer run out! ",
 		"splat":"6.1.0",
-		"lastchange":"Aug 10, 2016"
+		"lastchange":"Aug 10, 2016",
+		"jams":{
+			"ld34":"http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=37347",
+			"kfp":"https://two-scoop-games.itch.io/cluster-junk-kentucky-fried-pixels"
+		}
   },
   {
     "name": "Drunken Boss Fight",
-    "play_url": "https://github.com/aquisenberry/DrunkenBossFight",
+    "play_url": "http://aquisenberry.itch.io/jam-build",
     "github": "https://github.com/aquisenberry/DrunkenBossFight",
 		"platforms" : {
-			"web":""
+			"web":"http://aquisenberry.itch.io/jam-build"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/riseandshinegames_drunkenbossfight.png",
     "teamMembers": "Rise and Shine Games",
-    "descripion": ""
+    "descripion": "Drunken Boss Fight was meant to be a boss fight with a teddy bear that has grown entirely too large, created by myself (Anthony Quisenberry) and Veronica Rivera. It is pretty far from complete as it was her first game and my first experience using the splat-ecs game engine. For now, you can just fly around and shoot until the time runs out. "
   },
   {
     "name": "Treatment and Control",
@@ -220,12 +249,15 @@ var games =  [
     "play_url": "http://twoscoopgames.com/ggj15/",
     "github": "https://github.com/TwoScoopGames/ggj15",
 		"platforms" : {
-			"web":""
+			"web":"http://twoscoopgames.com/ggj15/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_thedaytheworldchanged.png",
     "teamMembers": "Two Scoop Games",
-    "descripion": ""
+    "descripion": "The Day the World Changed is a somber reflection on the troubles a new baby can bring to a family and how it can affect the whole community. ",
+		"jams":{
+			"ggj15": "http://globalgamejam.org/2015/games/day-world-changed"
+		}
   },
   {
     "name": "Desserts Killed Your Daddy",
@@ -292,22 +324,26 @@ var games =  [
     "name": "Glazing Lazers"
   },
   {
-    "play_url": "http://globalgamejam.org/2015/games/go-man",
+    "play_url": "http://rex-soriano.com/ggj15/",
     "license": "Source-viewable proprietary",
     "github": "",
 		"platforms" : {
-			"web":""
+			"web":"http://rex-soriano.com/ggj15/"
 		},
     "image": "img/games/goman.png",
     "teamMembers": "Anthony Quisenberry,Joey J Andrews,Jonathan Frazier,Rex Soriano,Wes Wright",
-    "name": "GO MAN!"
+    "name": "GO MAN!",
+		"description": "Run and dodge obstacles by rolling. Watch out for traffic cones and glass handlers!",
+		"jams":{
+			"ggj15": "http://globalgamejam.org/2015/games/go-man"
+		}
   },
   {
     "name": "Food Fight",
     "play_url": "https://aquisenberry.itch.io/food-fight",
     "github": "https://github.com/aquisenberry/FoodFight",
 		"platforms" : {
-			"web":""
+			"web":"https://aquisenberry.itch.io/food-fight"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/foodfight.png",
