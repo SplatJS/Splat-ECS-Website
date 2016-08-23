@@ -1,24 +1,5 @@
 var games =  [
   {
-    "play_url": "https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
-    "license": "Source-viewable proprietary",
-    "source": "https://github.com/saidyeti/marty-mcpaper-splat-ecs",
-		"platforms":{
-			"apple":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
-			"windows":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
-			"linux":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service"
-		},
-    "image": "img/games/saidyeti_martymcpaper.png",
-    "name": "Marty McPaper: Epic Delivery Service",
-    "teamMembers": "Said Yeti",
-		"description":"You are Marty McPaper, a delivery boy for the Tub County Herald. You're headed down Obstructive Lane, delivering papers and dodging numerous hindrances throughout Tub County's most affluent residential area. Hurry - they are not the most forgiving neighbors. And watch out - don't break their windows!",
-		"splat": "6.0.0",
-		"lastchange":"Jun 27, 2016",
-		"jams":{
-			"kfp":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service"
-		}
-  },
-  {
     "name": "Hydra Chicken",
     "play_url": "http://rex-soriano.com/LudumDare34/HHHC/",
     "source": "https://github.com/awesomerex/HungryHungryHydraChicken/tree/ecs",
