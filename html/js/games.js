@@ -153,7 +153,7 @@ var games =  [
 			"html5":"http://twoscoopgames.com/ld34/"
 		},
     "license": "Source-viewable proprietary",
-    "image": "img/games/twoscoopgames_clusterjunk.png",
+    "image": "img/games/clusterjunk.gif",
     "teamMembers": "Two Scoop Games, Cara Smith, Ben Wiley",
     "descripion": "There are millions of tons of trash floating in the oceans. So what goes on while no one is looking in these trash piles? Explore the garbage of humans and try to become the largest trash island in the sea! But hurry, don't let the timer run out! ",
 		"splat":"6.1.0",
