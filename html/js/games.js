@@ -2,9 +2,9 @@ var games =  [
   {
     "play_url": "https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
     "license": "Source-viewable proprietary",
-    "github": "https://github.com/saidyeti/marty-mcpaper-splat-ecs",
+    "source": "https://github.com/saidyeti/marty-mcpaper-splat-ecs",
 		"platforms":{
-			"mac":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
+			"apple":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
 			"windows":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service",
 			"linux":"https://saidyeti.itch.io/marty-mcpaper-epic-delivery-service"
 		},
@@ -21,9 +21,9 @@ var games =  [
   {
     "name": "Hydra Chicken",
     "play_url": "http://rex-soriano.com/LudumDare34/HHHC/",
-    "github": "https://github.com/awesomerex/HungryHungryHydraChicken/tree/ecs",
+    "source": "https://github.com/awesomerex/HungryHungryHydraChicken/tree/ecs",
 		"platforms" : {
-			"web":""
+			"html5":"http://rex-soriano.com/LudumDare34/HHHC/"
 		},
     "license": "Source-viewable proprietary",
     "image": "https://img.itch.io/aW1hZ2UvNzQzMzIvMzY4NDAwLmdpZg==/315x250%23c/iNrn8G.gif",
@@ -38,10 +38,12 @@ var games =  [
   {
     "play_url": "https://riseshinegames.itch.io/cali-bunga",
     "license": "Source-viewable proprietary",
-    "github": "https://github.com/RiseAndShineGames/ProjectJump",
+    "source": "https://github.com/RiseAndShineGames/ProjectJump",
     "image": "https://img.itch.io/aW1hZ2UvNzQzMzkvMzQzNzQ1LnBuZw==/315x250%23c/EsTFp0.png",
 		"platforms":{
-			"itch.io": "https://riseshinegames.itch.io/cali-bunga"
+			"apple": "https://riseshinegames.itch.io/cali-bunga",
+			"linux": "https://riseshinegames.itch.io/cali-bunga",
+			"windows": "https://riseshinegames.itch.io/cali-bunga"
 		},
     "name": "Cali Bunga",
 		"slogan": "Help a cephalopod out!",
@@ -56,10 +58,13 @@ var games =  [
   {
     "play_url": "https://riseshinegames.itch.io/flip-flap-pong",
     "license": "Source-viewable proprietary",
-    "github": "",
+    "source": "",
     "image": "https://img.itch.io/aW1hZ2UvNzA2NjMvMzQzNzQ4LnBuZw==/315x250%23c/JdSYpb.png",
 		"platforms":{
-			"itch.io": "https://riseshinegames.itch.io/flip-flap-pong"
+			"html5": "https://riseshinegames.itch.io/flip-flap-pong",
+			"apple": "https://riseshinegames.itch.io/flip-flap-pong",
+			"linux": "https://riseshinegames.itch.io/flip-flap-pong",
+			"windows": "https://riseshinegames.itch.io/flip-flap-pong"
 		},
     "name": "Flip Flap Pong",
 		"slogan":"Protect Your Eggs",
@@ -72,12 +77,9 @@ var games =  [
   {
     "play_url": "https://two-scoop-games.itch.io/electropolis",
     "license": "Source-viewable proprietary",
-    "github": "https://github.com/TwoScoopGames/Electropolis",
+    "source": "https://github.com/TwoScoopGames/Electropolis",
 		"platforms" : {
-			"web":"https://two-scoop-games.itch.io/electropolis",
-			"linux":"https://two-scoop-games.itch.io/electropolis",
-			"widnows":"https://two-scoop-games.itch.io/electropolis",
-			"mac":"https://two-scoop-games.itch.io/electropolis"
+			"html5":"https://two-scoop-games.itch.io/electropolis",
 		},
     "image": "img/games/twoscoopgames_electropolis.png",
     "name": "Electropolis",
@@ -86,9 +88,9 @@ var games =  [
   {
     "name": "Splatty Bird",
     "play_url": "http://twoscoopgames.com/splattybird/",
-    "github": "https://github.com/zbouvier/SplattyBird",
+    "source": "https://github.com/zbouvier/SplattyBird",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/splattybird/"
 		},
     "license": "MIT",
     "image": "img/games/twoscoopgames_splattybird.png",
@@ -97,9 +99,9 @@ var games =  [
   {
     "name": "Morning Ritual",
     "play_url": "http://twoscoopgames.com/morningritual/game/",
-    "github": "https://github.com/TwoScoopGames/Morning-Ritual",
+    "source": "https://github.com/TwoScoopGames/Morning-Ritual",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/morningritual/game/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_morningritual.png",
@@ -112,9 +114,9 @@ var games =  [
   {
     "name": "Zen Madness",
     "play_url": "http://aquisenberry.github.io/ggj_meditate/build/",
-    "github": "https://github.com/aquisenberry/ggj_meditate",
+    "source": "https://github.com/aquisenberry/ggj_meditate",
 		"platforms" : {
-			"web":""
+			"html5":"http://aquisenberry.github.io/ggj_meditate/build/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/riseandshinegames_zenmadness.png",
@@ -129,9 +131,9 @@ var games =  [
   {
     "play_url": "http://riseandshinegames.github.io/Polymorphic/build/",
     "license": "Source-viewable proprietary",
-    "github": "https://github.com/RiseAndShineGames/LudumDare35",
+    "source": "https://github.com/RiseAndShineGames/LudumDare35",
 		"platforms" : {
-			"web":"http://riseandshinegames.github.io/Polymorphic/build/"
+			"html5":"http://riseandshinegames.github.io/Polymorphic/build/"
 		},
     "image": "img/games/riseandshinegames_polymorphic.png",
     "teamMembers": "Rise and Shine Games",
@@ -147,9 +149,9 @@ var games =  [
   {
     "name": "The Powers That Bee",
     "play_url": "http://austinread.github.io/thepowersthatbee/",
-    "github": "https://github.com/awesomerex/thepowersthatbee",
+    "source": "https://github.com/awesomerex/thepowersthatbee",
 		"platforms" : {
-			"web":""
+			"html5":"http://austinread.github.io/thepowersthatbee/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/thepowersthatbee.png",
@@ -164,10 +166,10 @@ var games =  [
   {
     "name": "Cluster Junk",
     "play_url": "http://twoscoopgames.com/ld34/",
-    "github": "https://github.com/TwoScoopGames/Cluster-Junk",
+    "source": "https://github.com/TwoScoopGames/Cluster-Junk",
 
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/ld34/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_clusterjunk.png",
@@ -183,9 +185,9 @@ var games =  [
   {
     "name": "Drunken Boss Fight",
     "play_url": "http://aquisenberry.itch.io/jam-build",
-    "github": "https://github.com/aquisenberry/DrunkenBossFight",
+    "source": "https://github.com/aquisenberry/DrunkenBossFight",
 		"platforms" : {
-			"web":"http://aquisenberry.itch.io/jam-build"
+			"html5":"http://aquisenberry.itch.io/jam-build"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/riseandshinegames_drunkenbossfight.png",
@@ -195,9 +197,9 @@ var games =  [
   {
     "name": "Treatment and Control",
     "play_url": "http://twoscoopgames.com/ludumdare33/",
-    "github": "https://github.com/TwoScoopGames/Treatment-and-Control",
+    "source": "https://github.com/TwoScoopGames/Treatment-and-Control",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/ludumdare33/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_treatmentandcontrol.png",
@@ -207,9 +209,9 @@ var games =  [
   {
     "name": "You Are The Monster",
     "play_url": "http://rex-soriano.com/ld33/",
-    "github": "https://github.com/awesomerex/LudumDare33/tree/test_city",
+    "source": "https://github.com/awesomerex/LudumDare33/tree/test_city",
 		"platforms" : {
-			"web":""
+			"html5":"http://rex-soriano.com/ld33/"
 		},
     "teamMembers": "Clay Morten, Rex Soriano, Frank Moussette, Tiffani Stuart",
     "license": "Source-viewable proprietary",
@@ -220,9 +222,9 @@ var games =  [
   },
   {
     "play_url": "http://twoscoopgames.com/stanleysqueaks/game/",
-    "github": "https://github.com/TwoScoopGames/StanleySqueaks",
+    "source": "https://github.com/TwoScoopGames/StanleySqueaks",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/stanleysqueaks/game/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_stanleysqueaks.png",
@@ -235,9 +237,9 @@ var games =  [
   {
     "name": "Uprooted",
     "play_url": "http://twoscoopgames.com/ld32/",
-    "github": "https://github.com/TwoScoopGames/ld32",
+    "source": "https://github.com/TwoScoopGames/ld32",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/ld32/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_uprooted.png",
@@ -247,9 +249,9 @@ var games =  [
   {
     "name": "The Day The World Changed",
     "play_url": "http://twoscoopgames.com/ggj15/",
-    "github": "https://github.com/TwoScoopGames/ggj15",
+    "source": "https://github.com/TwoScoopGames/ggj15",
 		"platforms" : {
-			"web":"http://twoscoopgames.com/ggj15/"
+			"html5":"http://twoscoopgames.com/ggj15/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_thedaytheworldchanged.png",
@@ -262,9 +264,9 @@ var games =  [
   {
     "name": "Desserts Killed Your Daddy",
     "play_url": "http://twoscoopgames.com/ludumdare31/",
-    "github": "https://github.com/TwoScoopGames/Deserts-Killed-Your-Daddy",
+    "source": "https://github.com/TwoScoopGames/Deserts-Killed-Your-Daddy",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/ludumdare31/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_desserts.png",
@@ -276,9 +278,9 @@ var games =  [
   {
     "name": "SyRush",
     "play_url": "http://twoscoopgames.com/syrush/game/",
-    "github": "https://github.com/TwoScoopGames/SyRUSH",
+    "source": "https://github.com/TwoScoopGames/SyRUSH",
 		"platforms" : {
-			"web":""
+			"html5":""
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_syrush.png",
@@ -290,9 +292,9 @@ var games =  [
   {
     "name": "Mr. Fluffykins' Great Sorting Adventure",
     "play_url": "http://twoscoopgames.com/fluffykins/game/",
-    "github": "https://github.com/TwoScoopGames/Mr-Fluffykins-Great-Sorting-Adventure",
+    "source": "https://github.com/TwoScoopGames/Mr-Fluffykins-Great-Sorting-Adventure",
 		"platforms" : {
-			"web":""
+			"html5":""
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_mrfluffykins.png",
@@ -304,9 +306,9 @@ var games =  [
   {
     "play_url": "http://mintchipleaf.com/games/ludum/",
     "license": "Source-viewable proprietary",
-    "github": "",
+    "source": "",
 		"platforms" : {
-			"web":""
+			"html5":""
 		},
     "image": "img/games/mintgames_arkeynoid.png",
     "teamMembers": "Mint games",
@@ -315,9 +317,9 @@ var games =  [
   {
     "play_url": "http://gamejolt.com/games/glazing-lazers/64688#close",
     "license": "Source-viewable proprietary",
-    "github": "",
+    "source": "",
 		"platforms" : {
-			"web":""
+			"html5":""
 		},
     "image": "img/games/alexbezuska_glazinglazers.png",
     "teamMembers": "Alex Bezuska",
@@ -326,9 +328,9 @@ var games =  [
   {
     "play_url": "http://rex-soriano.com/ggj15/",
     "license": "Source-viewable proprietary",
-    "github": "",
+    "source": "",
 		"platforms" : {
-			"web":"http://rex-soriano.com/ggj15/"
+			"html5":"http://rex-soriano.com/ggj15/"
 		},
     "image": "img/games/goman.png",
     "teamMembers": "Anthony Quisenberry,Joey J Andrews,Jonathan Frazier,Rex Soriano,Wes Wright",
@@ -341,9 +343,9 @@ var games =  [
   {
     "name": "Food Fight",
     "play_url": "https://aquisenberry.itch.io/food-fight",
-    "github": "https://github.com/aquisenberry/FoodFight",
+    "source": "https://github.com/aquisenberry/FoodFight",
 		"platforms" : {
-			"web":"https://aquisenberry.itch.io/food-fight"
+			"html5":"https://aquisenberry.itch.io/food-fight"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/foodfight.png",
@@ -355,9 +357,9 @@ var games =  [
   {
     "name": "base.jump",
     "play_url": "http://mintchipleaf.com/games/basejump/",
-		"github":"",
+		"source":"",
 		"platforms" : {
-			"web":""
+			"html5":""
 		},
     "license": "proprietary",
     "image": "img/games/mintgames_basejump.png",
@@ -366,9 +368,10 @@ var games =  [
   {
     "name": "Kick Bot",
     "play_url": "http://twoscoopgames.com/kickbot/game/",
-    "github": "https://github.com/TwoScoopGames/kickbot",
+    "source": "https://github.com/TwoScoopGames/kickbot",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/kickbot/game/",
+			"chrome": "https://chrome.google.com/webstore/detail/kick-bot/lafjmgdfokjjbcbhbmcajlommahhgnlk"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_kickbot.png",
@@ -380,9 +383,9 @@ var games =  [
   {
     "name": "Apartment 213",
     "play_url": "http://twoscoopgames.com/apartment213/game/",
-    "github": "https://github.com/TwoScoopGames/apt-213-the-struggle",
+    "source": "https://github.com/TwoScoopGames/apt-213-the-struggle",
 		"platforms" : {
-			"web":""
+			"html5":"http://twoscoopgames.com/apartment213/game/"
 		},
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_apartment213.png",
@@ -395,11 +398,10 @@ var games =  [
     "name": "Scurry",
     "slogan": "Run, jump, survive.",
     "play_url": "http://twoscoopgames.com/scurry/game",
-    "github": "https://github.com/TwoScoopGames/scurry",
+    "source": "https://github.com/TwoScoopGames/scurry",
     "platforms": {
-      "web": "http://twoscoopgames.com/scurry/game",
-      "ios": "https://itunes.apple.com/us/app/scurry/id892274154?ls=1&mt=8",
-      "chromewebstore": "https://chrome.google.com/webstore/detail/scurry/djoifiholmpdceikfaajckcjepbjolof"
+      "html5": "http://twoscoopgames.com/scurry/game",
+      "chrome": "https://chrome.google.com/webstore/detail/scurry/djoifiholmpdceikfaajckcjepbjolof"
     },
     "license": "Source-viewable proprietary",
     "image": "img/games/twoscoopgames_scurry.png",

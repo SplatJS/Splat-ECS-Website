@@ -201,15 +201,55 @@
         	{{#each this}}
         	<div class="col-xs-12 col-sm-6 col-md-3">
         		<div class="game module">
-        			<a href="{{play_url}}">
+
+							<div class="image-container">
         				<img src="{{image}}" class="image-responsive" alt="{{name}} by {{developers}}"/>
-        			</a>
-        			<p>{{name}}</p>
+
+								<div class="link-icons">
+									{{#if platforms}}
+										{{#each platforms}}
+											<a href="{{this}}" title="{{@key}}" class="platform-icon">
+												<i class="fa fa-{{@key}}"></i>
+											</a>
+										{{/each}}
+									{{/if}}
+									{{#if source}}
+										<a href="{{source}}" title="View source for {{name}}" class="source-icon">
+											<i class="fa fa-code"></i>
+										</a>
+									{{/if}}
+								</div>
+							</div>
+
+
+							<p>{{name}}</p>
+
         		</div>
         	</div>
         	{{/each}}
         </script>
 
+<!--
+
+					{{play_url}}
+					{{license}}
+
+
+					{{github}}
+
+
+
+
+
+					{{image}}
+					{{name}}
+					{{teamMembers}}
+					{{description}}
+					{{splat}}
+					{{lastchange}}
+					{{jams}}
+
+-->
         <script src="js/moment.js"></script>
         <script src="js/games.js"></script>
         <script src="js/main.js"></script>

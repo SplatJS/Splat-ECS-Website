@@ -229,13 +229,18 @@ h4.heading{
 }
 
 .game.module p {
-  text-align: center;
-max-height: 12px;
-text-overflow: elipsis;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background: black;
+	overflow: hidden;
+	height: 32px;
+	line-height: 23px;
 }
 
 .game.module{
 margin: 20px 0;
+
 }
 .game.module img{
   margin: 0 auto;
@@ -244,6 +249,41 @@ width: 315px !important;
 height: 250px !important;
 
 }
+
+.game.module .image-container{
+	position: relative;
+}
+
+.link-icons{
+
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+border: 1px solid black;
+}
+
+.link-icons a{
+	color: white;
+	font-size: 25px;
+	padding: 5px 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.link-icons a:hover{
+	background: white;
+	color: black;
+}
+
+.link-icons .platform-icon{
+
+}
+
+.link-icons .source-icon{
+	float: right;
+}
+
 
 .page-footer{
   padding-top: 50px;
