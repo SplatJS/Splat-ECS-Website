@@ -249,7 +249,7 @@ h4.heading{
 	overflow: hidden;
 	height: 32px;
 	line-height: 23px;
-	width: 315px;
+	max-width: 315px;
 	margin: 0 auto;
 }
 
@@ -260,6 +260,7 @@ h4.heading{
 .game.module img{
 	margin: 0 auto;
 	display: block;
+	max-width: 100%;
 	width: 315px;
 	height: 250px;
 
@@ -267,7 +268,7 @@ h4.heading{
 
 .game.module .image-container{
 	position: relative;
-	width: 315px;
+	max-width: 315px;
 	margin: 0 auto;
 }
 
