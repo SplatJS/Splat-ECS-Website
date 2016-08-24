@@ -16,8 +16,8 @@ var games =  [
 		}
 	},
 	{
-		"license": "Source-viewable proprietary",
-		"source": "https://github.com/RiseAndShineGames/ProjectJump",
+		"license": "Proprietary",
+		"source": "",
 		"image": "https://img.itch.io/aW1hZ2UvNzQzMzkvMzQzNzQ1LnBuZw==/315x250%23c/EsTFp0.png",
 		"platforms":{
 			"apple": "https://riseshinegames.itch.io/cali-bunga",
@@ -35,7 +35,7 @@ var games =  [
 		}
 	},
 	{
-		"license": "Source-viewable proprietary",
+		"license": "Proprietary",
 		"source": "",
 		"image": "https://img.itch.io/aW1hZ2UvNzA2NjMvMzQzNzQ4LnBuZw==/315x250%23c/JdSYpb.png",
 		"platforms":{
@@ -50,7 +50,8 @@ var games =  [
 		"description":"There's a battle in the sky between a Momma Bird and her eggs and she's not happy about it! FlipFlap is a mobile, pong style game that keeps you on your toes. Developed by Rise & Shine Games, an indie game design and development studio in Louisville, KY, the game is featured in the Kentucky Fried Pixels Bundle, the first game bundle consisting of games made entirely in the Midwest.",
 		"jams":{
 			"kfp":"https://riseshinegames.itch.io/flip-flap-pong"
-		}
+		},
+		"splat":"6.0.0"
 	},
 	{
 		"license": "Source-viewable proprietary",
@@ -63,7 +64,8 @@ var games =  [
 		},
 		"image": "img/games/twoscoopgames_electropolis.png",
 		"name": "Electropolis",
-		"teamMembers": "Cara Smith, Alex Bezuska, Eric Lathrop, Rex Soriano, Lindar Greenwood"
+		"teamMembers": "Cara Smith, Alex Bezuska, Eric Lathrop, Rex Soriano, Lindar Greenwood",
+		"splat":"5.3.0"
 	},
 	{
 		"name": "Splatty Bird",
@@ -73,7 +75,8 @@ var games =  [
 		},
 		"license": "MIT",
 		"image": "img/games/twoscoopgames_splattybird.png",
-		"teamMembers": "Zach Bouvier"
+		"teamMembers": "Zach Bouvier",
+		"splat":"4.1.1"
 	},
 	{
 		"name": "Morning Ritual",
@@ -87,7 +90,8 @@ var games =  [
 		"descripion": "Every morning we go through a delicate morning ritual to prepare ourselves for the onslaught of the day.",
 		"jams":{
 			"ggj16": "http://globalgamejam.org/2016/games/morning-ritual-13"
-		}
+		},
+		"splat":"3.2.0"
 	},
 	{
 		"name": "Zen Madness",
@@ -99,7 +103,7 @@ var games =  [
 		"image": "img/games/riseandshinegames_zenmadness.png",
 		"teamMembers": "Rise ane Shine Games",
 		"descripion": "Keep your concentration in this fast paced, distraction avoidence game. Your monk is attracting all of the positive energy he can from the areas around him. Unfortunately, he is also attracting negative energy. It is your job to keep the negative energy out while letting the positive energy in. Click the red swirls to dissipate them. Drop zen grenades with the E Space key but be careful, Zen Grenades and other abilities destroy positive energy as well as negative.",
-		"splat": "6.0.1",
+		"splat": "3.0.2",
 		"lastchange":"Aug 7, 2016",
 		"jams":{
 			"ggj16": "http://globalgamejam.org/2016/games/zen-madness"
@@ -149,7 +153,7 @@ var games =  [
 		"image": "img/games/clusterjunk.gif",
 		"teamMembers": "Two Scoop Games, Cara Smith, Ben Wiley",
 		"descripion": "There are millions of tons of trash floating in the oceans. So what goes on while no one is looking in these trash piles? Explore the garbage of humans and try to become the largest trash island in the sea! But hurry, don't let the timer run out! ",
-		"splat":"6.1.0",
+		"splat":"7.1.0",
 		"lastchange":"Aug 10, 2016",
 		"jams":{
 			"ld34":"http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=37347",
@@ -165,7 +169,8 @@ var games =  [
 		"license": "Source-viewable proprietary",
 		"image": "img/games/riseandshinegames_drunkenbossfight.png",
 		"teamMembers": "Rise and Shine Games",
-		"descripion": "Drunken Boss Fight was meant to be a boss fight with a teddy bear that has grown entirely too large, created by myself (Anthony Quisenberry) and Veronica Rivera. It is pretty far from complete as it was her first game and my first experience using the splat-ecs game engine. For now, you can just fly around and shoot until the time runs out. "
+		"descripion": "Drunken Boss Fight was meant to be a boss fight with a teddy bear that has grown entirely too large, created by myself (Anthony Quisenberry) and Veronica Rivera. It is pretty far from complete as it was her first game and my first experience using the splat-ecs game engine. For now, you can just fly around and shoot until the time runs out. ",
+		"splat": "3.0.2"
 	},
 	{
 		"name": "Treatment and Control",
@@ -176,7 +181,8 @@ var games =  [
 		"license": "Source-viewable proprietary",
 		"image": "img/games/twoscoopgames_treatmentandcontrol.png",
 		"teamMembers": "Two Scoop Games, Chris Kincaid",
-		"descripion": ""
+		"descripion": "",
+		"splat":"4.1.1"
 	},
 	{
 		"name": "You Are The Monster",
@@ -188,7 +194,7 @@ var games =  [
 		"license": "Source-viewable proprietary",
 		"image": "img/games/youarethemonster.png",
 		"descripion": "You wake up one day and realize that you are a giant old man. Fed up with your reality you decide to go on a rampage, Tearing down the city that allowed it all to come to this. ",
-		"splat": "3.0.0",
+		"splat": "classic",
 		"lastchange": "Aug 23, 2015"
 	},
 	{
@@ -201,7 +207,7 @@ var games =  [
 		"teamMembers": "Two Scoop Games",
 		"name": "Stanley Squeaks and the Emerald Burrito",
 		"descripion": "Stanley Squeaks is an adventuring hamster on a quest to obtain the Emerald Burrito. Help Stanley solve puzzles and avoid traps in an ancient temple. This game is a puzzle platformer where the blocks you touch on the way to the treasure are destroyed on the way out, making it difficult to get out alive!",
-		"splat": "3.1.0",
+		"splat": "classic",
 		"lastchange": "Sep 17, 2015"
 	},
 	{
@@ -213,7 +219,8 @@ var games =  [
 		"license": "Source-viewable proprietary",
 		"image": "img/games/twoscoopgames_uprooted.png",
 		"teamMembers": "Two Scoop Games",
-		"descripion": ""
+		"descripion": "",
+		"splat":"0.0.0"
 	},
 	{
 		"name": "The Day The World Changed",
@@ -227,7 +234,8 @@ var games =  [
 		"descripion": "The Day the World Changed is a somber reflection on the troubles a new baby can bring to a family and how it can affect the whole community. ",
 		"jams":{
 			"ggj15": "http://globalgamejam.org/2015/games/day-world-changed"
-		}
+		},
+		"splat":"0.0.0"
 	},
 	{
 		"name": "Desserts Killed Your Daddy",
@@ -239,7 +247,7 @@ var games =  [
 		"image": "img/games/twoscoopgames_desserts.png",
 		"teamMembers": "Two Scoop Games",
 		"descripion": "",
-		"splat": "3.0.2",
+		"splat": "classic",
 		"lastchange": "Dec 8, 2014"
 	},
 	{
@@ -252,7 +260,7 @@ var games =  [
 		"image": "img/games/twoscoopgames_syrush.png",
 		"teamMembers": "Two Scoop Games",
 		"descripion": "",
-		"splat": "",
+		"splat": "classic",
 		"lastchange": "Sep 22, 2014"
 	},
 	{
@@ -265,7 +273,7 @@ var games =  [
 		"image": "img/games/twoscoopgames_mrfluffykins.png",
 		"teamMembers": "Two Scoop Games, Anthony Quisenberry, Rex Soriano, Matthew Hutchens, Aaron Smith",
 		"descripion": "",
-		"splat": "3.0.2",
+		"splat": "classic",
 		"lastchange": "Dec 8, 2014"
 	},
 	{
@@ -276,7 +284,8 @@ var games =  [
 		},
 		"image": "img/games/mintgames_arkeynoid.png",
 		"teamMembers": "Mint games",
-		"name": "Arkeynoid"
+		"name": "Arkeynoid",
+		"splat": "classic"
 	},
 	{
 		"license": "Source-viewable proprietary",
@@ -289,7 +298,8 @@ var games =  [
 		"name": "Glazing Lazers",
 		"jams":{
 			"letscook": "http://gamejolt.com/games/glazing-lazers/64688#close"
-		}
+		},
+		"splat": "5.3.0",
 	},
 	{
 		"license": "Source-viewable proprietary",
@@ -303,7 +313,8 @@ var games =  [
 		"description": "Run and dodge obstacles by rolling. Watch out for traffic cones and glass handlers!",
 		"jams":{
 			"ggj15": "http://globalgamejam.org/2015/games/go-man"
-		}
+		},
+		"splat": "classic",
 	},
 	{
 		"name": "Food Fight",
@@ -315,7 +326,7 @@ var games =  [
 		"image": "img/games/foodfight.png",
 		"teamMembers": "Clay Morton, Anthony Quisenberry, Kira Winters",
 		"descripion": "Entry for Ludum Dare 32. This is a Local multiplayer food fighter. This is a minimal product and we plan on working on this more and releasing it with tablet friendly controls. Please play and have fun :-)",
-		"splat": "",
+		"splat": "classic",
 		"lastchange": "Apr 22, 2015"
 	},
 	{
@@ -326,7 +337,8 @@ var games =  [
 		},
 		"license": "proprietary",
 		"image": "img/games/mintgames_basejump.png",
-		"teamMembers": "Mint games"
+		"teamMembers": "Mint games",
+		"splat": "classic"
 	},
 	{
 		"name": "Kick Bot",
@@ -339,7 +351,7 @@ var games =  [
 		"image": "img/games/twoscoopgames_kickbot.png",
 		"teamMembers": "Two Scoop Games",
 		"descripion": "",
-		"splat": "",
+		"splat": "classic",
 		"lastchange": "Jul 21, 2014"
 	},
 	{
@@ -352,7 +364,7 @@ var games =  [
 		"image": "img/games/twoscoopgames_apartment213.png",
 		"teamMembers": "Two Scoop Games, Mike Revel, Mattie Richards",
 		"descripion": "",
-		"splat": "",
+		"splat": "classic",
 		"lastchange": "Feb 2, 2014"
 	},
 	{
@@ -366,7 +378,7 @@ var games =  [
 		"license": "Source-viewable proprietary",
 		"image": "img/games/twoscoopgames_scurry.png",
 		"teamMembers": "Two Scoop Games",
-		"splat": "1.1.0",
+		"splat": "classic",
 		"lastchange": "Jul 21, 2014",
 		"descripion": "Scurry is a game where you play as a cockroach who is running through a grocery store, avoid obstacles, get sweet power-ups, and try not to fall! Try to get a high score and beat your friends!",
 		"webpage": "http://twoscoopgames.com/scurry/"

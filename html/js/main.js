@@ -63,4 +63,24 @@ xhr2.send();
 
 // Handlebars stuff
 var gameTemplate = Handlebars.compile(document.getElementById('game-template').innerHTML);
+
+function compare(b,a) {
+	if (a.splat === "" || a.splat === "classic") {
+		return -1;
+	}
+	if (b.splat === "" || b.splat === "classic") {
+		return 1;
+	}
+	if (a.splat < b.splat){
+		return -1;
+	}
+	if (a.splat > b.splat){
+		return 1;
+	}
+	return 0;
+}
+
+games.sort(compare);
+
+
 document.getElementById('games').innerHTML = gameTemplate(games);
