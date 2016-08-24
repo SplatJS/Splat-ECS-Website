@@ -1,4 +1,4 @@
-# Splatjs.com website
+# <Splatjs.com> website
 #### by Alex Bezuska
  Website for the open source web technology- based game engine Splat. 
 <https://github.com/SplatJS/splat-ecs>
