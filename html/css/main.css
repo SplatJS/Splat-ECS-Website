@@ -1,232 +1,244 @@
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body{
-  background: hsla(206, 19%, 93%, 1)
+	background: hsla(206, 19%, 93%, 1)
 }
 
 .container-fluid{
-  max-width: 1170px; !important;
+	max-width: 1170px; !important;
 }
 
 .white-shadow{
-  background: white;
-  margin-bottom: 25px;
-  box-shadow: 0 0 37px 15px rgba(0, 0, 0, 0.08);
+	background: white;
+	margin-bottom: 25px;
+	box-shadow: 0 0 37px 15px rgba(0, 0, 0, 0.08);
 }
 
 .image-responsive{
-  max-width: 100% !important;
+	max-width: 100% !important;
 }
 
 header{
-  width: 100vw;
+	width: 100vw;
 }
 
 .header-inner{
-  max-width: 1170px;;
-  margin: 0 auto !important;
+	max-width: 1170px;;
+	margin: 0 auto !important;
 }
 
 .navbar{
-  min-height: 64px;
-  border-radius: 0 !important;
-  margin: 0 !important;
+	min-height: 64px;
+	border-radius: 0 !important;
+	margin: 0 !important;
 }
 
 .navbar-brand img{
-  max-width: 80px;
+	max-width: 80px;
 }
 
 .nav-icon{
-  padding: 0px 5px;
-  color: white;
+	padding: 0px 5px;
+	color: white;
 }
 
 .nav-icon:hover{
-  color: white;
-  background: rgba(255,255,255,0.15);
-  text-decoration: none;
+	color: white;
+	background: rgba(255,255,255,0.15);
+	text-decoration: none;
 }
 
 .nav-icon i{
-  color: white;
-  font-size: 25px;
-  margin: 5px;
-  vertical-align: middle;
+	color: white;
+	font-size: 25px;
+	margin: 5px;
+	vertical-align: middle;
 }
-
 
 .logo img{
-  margin: 10px;
-  max-height: 150px;
+	margin: 10px;
+	max-height: 150px;
 }
 
-
 .minitron {
-  color: white;
-  background-color: #f43779;
+	color: white;
+	background-color: #f43779;
 }
 
 .messageArea{
-  margin: 25px;
+	margin: 25px;
 }
-
 
 .main-btn{
-  min-width: 230px;
-  margin: 0 auto;
-  display: block;
+	min-width: 230px;
+	margin: 0 auto;
+	display: block;
 }
 
-.row{
-  margin: 50px auto;
+.row:not(.heading){
+	margin: 0 auto 75px auto;
 }
+
+@media screen and (max-width: 575px) {
+	.navbar{
+		display: none;
+	}
+	h1{
+		font-size: 35px;
+	}
+	h1, h2, h3{
+		text-align: center !important;
+	}
+}
+
 
 .btn{
-  margin: 15px;
+	margin: 15px;
 }
 
 .btn-primary{
-  border: 1px solid hsla(175, 100%, 40%, 1) !important;
-  background: hsla(175, 100%, 45%, 1) !important;
+	border: 1px solid hsla(175, 100%, 40%, 1) !important;
+	background: hsla(175, 100%, 45%, 1) !important;
 }
 
 .btn-primary:hover{
-  border: 1px solid hsla(175, 100%, 40%, 1) !important;
-  background: hsla(175, 100%, 50%, 1) !important;
+	border: 1px solid hsla(175, 100%, 40%, 1) !important;
+	background: hsla(175, 100%, 50%, 1) !important;
 }
 
 .btn .fa{
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
-.whiteOverPhoto{
-  position: absolute;
-  top: 92px;
-  left: 35px;
-  color: white;
-  text-shadow: inherit;
-  text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+@media screen and (min-width: 575px) {
+	.whiteOverPhoto{
+		position: absolute;
+		top: 92px;
+		left: 35px;
+		color: white;
+		adow: inherit;
+		text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+	}
 }
 
 .padded{
-  padding: 15px 20px;
+	padding: 15px 20px;
 }
 
 code em{
-  background: rgba(255,255,255,0.2);
+	background: rgba(255,255,255,0.2);
 }
 
 pre{
-  padding: 0 !important;#top
+	padding: 0 !important;#top
 }
 
 .socialIcons{
-  margin: 25px 10px;
-  float: right;
+	margin: 25px 10px;
+	float: right;
 }
 
 .socialIcons a{
-  color: white;
-  background: hsla(175, 100%, 40%, 1);
-  border-radius: 40px;
-  width: 45px;
-  height: 45px;
-  padding: 2px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
+	color: white;
+	background: hsla(175, 100%, 40%, 1);
+	border-radius: 40px;
+	width: 45px;
+	height: 45px;
+	padding: 2px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
 }
 
 .socialIcons a:hover{
-  background: white;
-  color:hsla(175, 100%, 40%, 1);
+	background: white;
+	color:hsla(175, 100%, 40%, 1);
 }
 
 .circle-icon{
-  color: white;
-  background: hsla(175, 100%, 40%, 1);
-  border-radius: 40px;
-  width: 45px;
-  height: 45px;
-  padding: 7px;
-  font-size: 28px !important;
-  text-align: center;
-  vertical-align: top;
+	color: white;
+	background: hsla(175, 100%, 40%, 1);
+	border-radius: 40px;
+	width: 45px;
+	height: 45px;
+	padding: 7px;
+	font-size: 28px !important;
+	text-align: center;
+	vertical-align: top;
 }
 
 .section-title{
-  border-bottom: 5px solid rgb(0, 229, 210);
+	border-bottom: 5px solid rgb(0, 229, 210);
 }
 
 .alert i{
-  font-size: 32px;
-  margin: 0 10px 10px 0;
-  vertical-align: middle;
+	font-size: 32px;
+	margin: 0 10px 10px 0;
+	vertical-align: middle;
 }
 
 .always-at-top{
-  z-index: 1000;
-  width: 100vw;
-  position: fixed;
-  background: #353535;
-  text-align: right;
-  padding: 5px 20px;
-  top: 0px;
+	z-index: 1000;
+	width: 100vw;
+	position: fixed;
+	background: #353535;
+	text-align: right;
+	padding: 5px 20px;
+	top: 0px;
 }
 
 h4.heading{
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .person{
-  width: 140px;
-  height: 140px;
-  margin: 10px;
-  float: left;
-  border-radius: 120px;
-  position: relative;
-  background: rgba(255,255,255,0.5);
-  text-decoration: none !important;
+	width: 140px;
+	height: 140px;
+	margin: 10px;
+	float: left;
+	border-radius: 120px;
+	position: relative;
+	background: rgba(255,255,255,0.5);
+	text-decoration: none !important;
 }
 
 .person:hover{
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .person img {
-  width: 140px;
-  height: 140px;
-  border-radius: 120px;
-  opacity: .7;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: grayscale(100%);
-  position: absolute;
+	width: 140px;
+	height: 140px;
+	border-radius: 120px;
+	opacity: .7;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	position: absolute;
 }
 
 .person .info {
-  display: none;
+	display: none;
 }
 
 .person:hover .info {
-  display: block;
-  color: white;
-  font-size: 1.5rem;
-  padding: 52px 12px;
-  width: 140px;
-  height: 140px;
-  border-radius: 120px;
-  position: absolute;
-  background: hsla(175, 100%, 40%, 0.5);
+	display: block;
+	color: white;
+	font-size: 1.5rem;
+	padding: 52px 12px;
+	width: 140px;
+	height: 140px;
+	border-radius: 120px;
+	position: absolute;
+	background: hsla(175, 100%, 40%, 0.5);
 }
 
 .game.module p {
@@ -237,31 +249,34 @@ h4.heading{
 	overflow: hidden;
 	height: 32px;
 	line-height: 23px;
+	width: 315px;
+	margin: 0 auto;
 }
 
 .game.module{
-margin: 20px 0;
+	margin: 20px 0;
 
 }
 .game.module img{
-  margin: 0 auto;
-  display: block;
-width: 315px !important;
-height: 250px !important;
+	margin: 0 auto;
+	display: block;
+	width: 315px;
+	height: 250px;
 
 }
 
 .game.module .image-container{
 	position: relative;
+	width: 315px;
+	margin: 0 auto;
 }
 
 .link-icons{
-
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
 	background: rgba(0,0,0,0.5);
-border: 1px solid black;
+	border: 1px solid black;
 }
 
 .link-icons a{
@@ -277,33 +292,28 @@ border: 1px solid black;
 	color: black;
 }
 
-.link-icons .platform-icon{
-
-}
-
 .link-icons .source-icon{
 	float: right;
 }
 
-
 .page-footer{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 100px;
-  color: #99979c;
-  background-color: #2a2730;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 100px;
+	color: #99979c;
+	background-color: #2a2730;
 }
 
 .page-footer a{
-  color: white;
+	color: white;
 }
 
 .page-footer .container{
-  width: 1170px;
-  margin: 0 auto;
+	width: 1170px;
+	margin: 0 auto;
 }
 
 .page-footer-links{
-  padding-left: 0;
-  margin-bottom: 20px;
+	padding-left: 0;
+	margin-bottom: 20px;
 }
