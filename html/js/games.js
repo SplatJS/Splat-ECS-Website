@@ -322,7 +322,7 @@ var games =  [
 		"name": "base.jump",
 		"source":"",
 		"platforms" : {
-			"html5":""
+			"html5":"http://mintchipleaf.com/games/basejump/"
 		},
 		"license": "proprietary",
 		"image": "img/games/mintgames_basejump.png",
