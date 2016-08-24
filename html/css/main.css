@@ -78,11 +78,12 @@ header{
 }
 
 
-.introduction .btn-lg{
+.main-btn{
   min-width: 230px;
   margin: 0 auto;
   display: block;
 }
+
 .row{
   margin: 50px auto;
 }

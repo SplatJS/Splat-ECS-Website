@@ -61,6 +61,9 @@ var games =  [
     "source": "https://github.com/TwoScoopGames/Electropolis",
 		"platforms" : {
 			"html5":"https://two-scoop-games.itch.io/electropolis",
+			"linux":"https://two-scoop-games.itch.io/electropolis",
+			"apple":"https://two-scoop-games.itch.io/electropolis",
+			"windows":"https://two-scoop-games.itch.io/electropolis",
 		},
     "image": "img/games/twoscoopgames_electropolis.png",
     "name": "Electropolis",
